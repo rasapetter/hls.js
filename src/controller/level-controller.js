@@ -7,6 +7,9 @@ import EventHandler from '../event-handler';
 import {logger} from '../utils/logger';
 import {ErrorTypes, ErrorDetails} from '../errors';
 import BufferHelper from '../helper/buffer-helper';
+import {getMediaSource} from '../helper/mediasource-helper';
+
+const MediaSource = getMediaSource();
 
 class LevelController extends EventHandler {
 
